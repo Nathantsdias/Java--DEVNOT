@@ -1,0 +1,18 @@
+Calculadora de Viagem
+----------------------
+
+1. distanciaPercorrida: Limeira a São Paulo = 148km.();
+2. gasto gasolina em Km/L;
+3. preço combustivel;
+4. tempoGasto = 1h53min ();
+5. velocidadeMedia = distanciaPercorrida= 148km. / tempoGasto= 1h53min;
+6. Somar o custo total = quantidade de litros x preço gasolina
+
+pseudolinguagem
+
+1- distanciaPercorrida = obter do usuário(KM);
+2- consumoTransporte = obter do usuário(KM/L);
+3- preçoCombustivel = obter do usuário(R$);
+4- quantidadeLitrosCombustivel =
+   distanciaPercorrida/consumoTransporte;
+5- custoTotal=quantidade
