@@ -19,7 +19,6 @@ public class Exercicios {
             System.out.println("O maior valor é: " + valor2);
         }
 
-        sc.close();
     }
 
     public void exercicio2() {

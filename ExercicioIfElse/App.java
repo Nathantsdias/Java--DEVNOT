@@ -7,9 +7,9 @@ public class App {
         //objeto1.exercicio2();
         //objeto1.exercicio3();
         // objeto1.exercicio4();
-        // objeto1.exercicio5();
+         objeto1.exercicio5();
         //objeto1.exercicio6();
-        objeto1.exercicio7();
+        //objeto1.exercicio7();
     }
 
 }
