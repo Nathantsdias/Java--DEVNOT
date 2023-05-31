@@ -22,14 +22,14 @@ public class Quadrado implements FiguraGeometrica{
 
     @Override
     public double getArea() {
-        // TODO Auto-generated method stub
+        
         int area = lado*lado;
         return area;
     }
 
     @Override
     public String getNomeFigura() {
-        // TODO Auto-generated method stub
+    
         return "quadrado";
     }
 
