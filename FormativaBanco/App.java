@@ -2,7 +2,6 @@ package FormativaBanco;
 
 import javax.swing.JOptionPane;
 
-
 public class App {
     public static void main(String[] args) {
         ContaPJ[] clientePJ = new ContaPJ[10];
@@ -13,11 +12,11 @@ public class App {
 
         while (aberto) {
             int acao = Integer.parseInt(JOptionPane.showInputDialog("Informe a ação desejada:"
-                        +"\n 1 - Abrir Conta PJ"
-                        +"\n 2 - Abrir Conta PF"
-                        +"\n 3 - Acessar Conta PJ"
-                        +"\n 4 - Acessar Conta PF"
-                        +"\n 5 - Sair"));
+                    + "\n 1 - Abrir Conta PJ"
+                    + "\n 2 - Abrir Conta PF"
+                    + "\n 3 - Acessar Conta PJ"
+                    + "\n 4 - Acessar Conta PF"
+                    + "\n 5 - Sair"));
 
             if (acao == 1) {
                 clientePJ[contPJ] = new ContaPJ();
@@ -77,7 +76,9 @@ public class App {
             int acao2 = Integer.parseInt(JOptionPane.showInputDialog("Informe a operação desejada:"
                         +"\n 1 - Consultar o Saldo"
                         +"\n 2 - Realizar um Saque"
-                        +"\n 3 - ..."));
+                        +"\n 3 - Depósito"
+                        +"\n 4 - Realizar um Emprestimo"
+                        +"\n 5 - Sair"));
 
             if (acao2 == 1) {
                 JOptionPane.showMessageDialog(null, "Saldo: R$" + conta.getSaldo());
@@ -88,11 +89,13 @@ public class App {
                 } else {
                     JOptionPane.showMessageDialog(null, "Saldo insuficiente para realizar o saque");
                 }
-            } else if (acao2 == 3) {
-                // ...
+            } else (acao2 == 3) {
+                double valorDepósito = double.parseDouble(JOptionPane.showInputDialog("Informe o valor do depósito: ");
+               if (conta.Depósito(valorDepósito){
             } else {
                 JOptionPane.showMessageDialog(null, "Ação inválida. Tente novamente.");
             }
         }
     }
+}
 }

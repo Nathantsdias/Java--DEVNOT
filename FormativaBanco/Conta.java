@@ -54,4 +54,9 @@ public abstract class Conta {
     public boolean saque(double valorSaque) {
         return false;
     }
+    public void Depósito( double valorDepósito) {
+        double Depósito = 100;
+        int Depósito = Integer.parseInt(JOptionPane.showInputDialog("Digite a quantia desejada: "));
+        saldo += Depósito;
+    }
 }
